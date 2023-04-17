@@ -1,0 +1,256 @@
+{
+  "id": "6b72d908-05b3-4eb2-ba46-79c964fe90ef",
+  "version": "2.0",
+  "name": "Task#20_Gabidullin",
+  "url": "https://animego.online/",
+  "tests": [{
+    "id": "aee25209-a367-488d-8279-aef9b619c497",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "81244e84-b4e1-4e18-a457-6d93bcd4d046",
+    "name": "Task20_Gabidullin",
+    "commands": [{
+      "id": "57045264-a16b-4e3d-b812-c1d19dd8d2ac",
+      "comment": "",
+      "command": "open",
+      "target": "https://animego.online/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f2eaf72-4dcd-47b3-abdf-8ab654a4216b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1047",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76331a86-4f71-4ef1-a87d-8aadc23132be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-item:nth-child(1) img",
+      "targets": [
+        ["css=.owl-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Клинок, рассекающий демонов: Бесконечный поезд']", "xpath:img"],
+        ["xpath=//div[@id='owl-popular']/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82c00d2c-e8fe-4837-97f2-7189a61883be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Исторический",
+      "targets": [
+        ["linkText=Исторический", "linkText"],
+        ["css=span > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Исторический')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/historical/')])[2]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77eb379b-81e7-4d9e-8784-bc4998428033",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-ctrl__cell:nth-child(1) > .dle-filter-select-o\\.cat > .select-label",
+      "targets": [
+        ["css=.filter-ctrl__cell:nth-child(1) > .dle-filter-select-o\\.cat > .select-label", "css:finder"],
+        ["xpath=//form/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1a4b08f-2c6c-4e75-9c78-eddd252dbbbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .dropdown-option:nth-child(4)",
+      "targets": [
+        ["css=.active .dropdown-option:nth-child(4)", "css:finder"],
+        ["xpath=//div[2]/div/ul/li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38ef51fc-1373-48d8-9387-83e6aa8246ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .dropdown-option:nth-child(5)",
+      "targets": [
+        ["css=.active .dropdown-option:nth-child(5)", "css:finder"],
+        ["xpath=//div[2]/div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06341ee6-a9d2-4eea-9f21-24128cad09be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dle-filter-select-o\\.cat .dropdown-option:nth-child(6)",
+      "targets": [
+        ["css=.dle-filter-select-o\\.cat .dropdown-option:nth-child(6)", "css:finder"],
+        ["xpath=//div[2]/div/ul/li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c93c1638-d1a6-441e-b084-28760f7e1899",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-ctrl__submit > input",
+      "targets": [
+        ["css=.filter-ctrl__submit > input", "css:finder"],
+        ["xpath=//input[@value='Поиск']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "013cddca-96ec-4783-8d3f-9305b9254018",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "xpath=//div/span/span[6]",
+      "targets": [
+        ["css=.state_hover", "css:finder"],
+        ["xpath=//div/span/span[6]", "xpath:position"]
+      ],
+      "value": "13.5625,9.25"
+    }, {
+      "id": "f35bb71e-97f8-4c1f-8a31-57cc0712d056",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "xpath=//div/span/span[6]",
+      "targets": [
+        ["css=.state_hover", "css:finder"],
+        ["xpath=//div/span/span[6]", "xpath:position"]
+      ],
+      "value": "13.5625,9.25"
+    }, {
+      "id": "550ff240-ebfa-4489-8502-76ef1d7e3c84",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "xpath=//div/span/span[6]",
+      "targets": [
+        ["css=.state_hover", "css:finder"],
+        ["xpath=//div/span/span[6]", "xpath:position"]
+      ],
+      "value": "13.5625,9.25"
+    }, {
+      "id": "6a999f31-5dcc-4c33-8b5e-d623433720f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.type_last",
+      "targets": [
+        ["css=.type_last", "css:finder"],
+        ["xpath=//div/span/span[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eae0b8e-d08c-4901-b0ec-bead408bae3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-ctrl__submit > input",
+      "targets": [
+        ["css=.filter-ctrl__submit > input", "css:finder"],
+        ["xpath=//input[@value='Поиск']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0e5e90d-cee8-4a14-9674-f866663592af",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "xpath=//span[7]",
+      "targets": [
+        ["css=.state_hover", "css:finder"],
+        ["xpath=//span[7]", "xpath:position"]
+      ],
+      "value": "9.046875,12.25"
+    }, {
+      "id": "b9b761c7-d9cf-4d40-878c-426d088e19da",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "xpath=//span[7]",
+      "targets": [
+        ["css=.state_hover", "css:finder"],
+        ["xpath=//span[7]", "xpath:position"]
+      ],
+      "value": "9.046875,12.25"
+    }, {
+      "id": "4f510b9f-f072-4e76-9c61-361cd43bd4cf",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "xpath=//span[7]",
+      "targets": [
+        ["css=.state_hover", "css:finder"],
+        ["xpath=//span[7]", "xpath:position"]
+      ],
+      "value": "9.046875,12.25"
+    }, {
+      "id": "a60c7c91-38ee-47af-ac5b-915658a855e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.type_last",
+      "targets": [
+        ["css=.type_last", "css:finder"],
+        ["xpath=//span[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3ded3ab-6ac7-4bec-9215-ba61292d63a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-ctrl__submit > input",
+      "targets": [
+        ["css=.filter-ctrl__submit > input", "css:finder"],
+        ["xpath=//input[@value='Поиск']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58de86b9-40ac-4cc1-bdb8-a12c148b0690",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//header[@id='header']/div/div[4]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53a138b5-e189-4aff-80d8-f04b19f8176e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Триллер",
+      "targets": [
+        ["linkText=Триллер", "linkText"],
+        ["css=#mobile-menu .submenu li:nth-child(8) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Триллер')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/ul/li/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/thriller/')])[2]", "xpath:href"],
+        ["xpath=//div[4]/ul/li/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3bfd0b1-00ff-4685-a643-ae366cd6092b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.pagination__pages > a", "css:finder"],
+        ["xpath=//a[contains(text(),'2')]", "xpath:link"],
+        ["xpath=//div[@id='pagination']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://animego.online/thriller/page/2/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cb8b7900-50b1-43ae-bbc8-81f367a4666e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aee25209-a367-488d-8279-aef9b619c497"]
+  }],
+  "urls": ["https://animego.online/"],
+  "plugins": []
+}

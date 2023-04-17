@@ -1,0 +1,397 @@
+{
+  "id": "7e841b8a-b29a-4c13-a822-3e7153b4ed3c",
+  "version": "2.0",
+  "name": "Task#21_Gabidullin",
+  "url": "https://mail.ru/",
+  "tests": [{
+    "id": "98aa2184-a805-4ebf-aa31-c50e4c841e8c",
+    "name": "Task#21_Gabidullin",
+    "commands": [{
+      "id": "3b17c200-4c65-498f-8df5-8074a03ec5cf",
+      "comment": "",
+      "command": "open",
+      "target": "https://mail.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c537032b-35a4-4a6d-8a13-96346953ba96",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1000x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9546273a-58e2-40da-ae0d-1a9bb03f3e80",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Одноклассники",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12fa087e-1232-4ea9-9782-6f4d01d75481",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Спорт",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a75a9ffb-9372-445d-90b8-2f58dab91cc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph-project:nth-child(9)",
+      "targets": [
+        ["css=.ph-project:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='ph-whiteline']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3c9d3c2-3bb1-4846-bd5e-5b8126110813",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//span[contains(.,'Ответы')]",
+      "targets": [
+        ["css=.ph-projects-group__wrapper-column:nth-child(2) > .ph-project:nth-child(2) > .svelte-ezp2r2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='ph-whiteline']/div/div[2]/div/section[2]/div/div/div/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ответы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b05c67e-a813-4287-a826-108a428dcacc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph-project:nth-child(9)",
+      "targets": [
+        ["css=.ph-project:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='ph-whiteline']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64550f4f-784d-471f-9953-d12e7f2a2888",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e7b4508-a8d9-45e7-b77d-67eb2e9c779d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0604e470-2949-4061-9f73-d2f90e473bf3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "413693b6-0337-4e4a-bf23-0143a6c164aa",
+      "comment": "",
+      "command": "click",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.arrow__input", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feca5ebe-fadd-42c2-8420-91a1eec315b0",
+      "comment": "",
+      "command": "type",
+      "target": "name=text",
+      "targets": [],
+      "value": "Велосипед"
+    }, {
+      "id": "c7370a9a-c719-4bfa-be31-a5064ac91466",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16f63eb8-6745-4f01-af3a-dd59b1ad3c9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-arrow__button",
+      "targets": [
+        ["css=.search-arrow__button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='grid']/div[2]/div[3]/div/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Найти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24310f80-eac0-4923-bfac-28e11fc1686a",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//li[@class=\"serp-item serp-item_card\"]",
+      "targets": [],
+      "value": "c"
+    }, {
+      "id": "f869f7b2-8260-4988-9397-f5c6564c3011",
+      "comment": "",
+      "command": "echo",
+      "target": "Numbers of Links on Page = ${c}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41775d02-c312-4c59-b5b1-752cdde1ff16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph-login",
+      "targets": [
+        ["css=.ph-login", "css:finder"],
+        ["xpath=//div[@id='ph-whiteline']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79e88a97-6f79-4d83-9823-7c884f3a6a09",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "722c05d5-45b3-4bf6-8ddb-161cf20122f9",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.focus-0-2-61 .input-0-2-71", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[2]/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d243837-2462-436d-b441-00438ce90b95",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.focus-0-2-61 .input-0-2-71", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[2]/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "artuzen"
+    }, {
+      "id": "93d56827-f559-4ec1-a3ca-91e1d421b71f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.innerTextWrapper-0-2-82:nth-child(1)",
+      "targets": [
+        ["css=.innerTextWrapper-0-2-82:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[2]/div[2]/div[3]/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ввести пароль')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc81e9d2-bec5-49f5-90e4-b5c681c64d18",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.withIcon-0-2-72", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[2]/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "14051997Art"
+    }, {
+      "id": "a1a9b5a4-42d1-4b12-91e3-2087833ee36f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.innerTextWrapper-0-2-82:nth-child(1)",
+      "targets": [
+        ["css=.innerTextWrapper-0-2-82:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[2]/div/div[3]/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f43459eb-a268-453b-bfcf-9b1f2607f630",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9ac0fb-8482-4b84-800c-f6599a72f4f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mail.ru",
+      "targets": [
+        ["linkText=Mail.ru", "linkText"],
+        ["css=.ph-projects > .ph-project:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mail.ru')]", "xpath:link"],
+        ["xpath=//div[@id='ph-whiteline']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://trk.mail.ru/c/ds8xq6?mt_sub1=e.mail.ru')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mail.ru')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5499",
+      "windowTimeout": 2000
+    }, {
+      "id": "f52de6c6-6f69-49cf-b8ef-95786f2d17b6",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d99e47a-d290-4d2c-899a-efef0c91009d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5499}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b529a73c-04c2-4393-9b07-605eeb3fd9e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Пушилин заявил о продвижении по всей линии фронта",
+      "targets": [
+        ["linkText=Пушилин заявил о продвижении по всей линии фронта", "linkText"],
+        ["css=.news-item-container:nth-child(4) .news-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Пушилин заявил о продвижении по всей линии фронта')]", "xpath:link"],
+        ["xpath=//main[@id='grid']/div[2]/div[3]/div/div[3]/div/ul/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//news.mail.ru/incident/53947421/?frommail=1&utm_partner_id=987')]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Пушилин заявил о продвижении по всей линии фронта')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd50be19-8f4c-4721-aaa3-6ae3c045cea7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Пушилин заявил о продвижении по всей линии фронта",
+      "targets": [
+        ["linkText=Пушилин заявил о продвижении по всей линии фронта", "linkText"],
+        ["css=.news-item-container:nth-child(4) .news-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Пушилин заявил о продвижении по всей линии фронта')]", "xpath:link"],
+        ["xpath=//main[@id='grid']/div[2]/div[3]/div/div[3]/div/ul/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//news.mail.ru/incident/53947421/?frommail=1&utm_partner_id=987')]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Пушилин заявил о продвижении по всей линии фронта')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ccb3fa4-accd-4282-85a2-df93a72d82ff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Спецоперация",
+      "targets": [
+        ["linkText=Спецоперация", "linkText"],
+        ["css=.tabs__item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Спецоперация')]", "xpath:link"],
+        ["xpath=//main[@id='grid']/div[2]/div[3]/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//news.mail.ru/story/politics/ukraine_conflict/')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Спецоперация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d68de793-e85d-40b8-9637-e286aaec6a9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabs__item:nth-child(3)",
+      "targets": [
+        ["css=.tabs__item:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Казань')])[2]", "xpath:link"],
+        ["xpath=//main[@id='grid']/div[2]/div[3]/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://news.mail.ru/inregions/volgaregion/16/']", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca6cc5bb-8c38-41c2-a618-2a788579c579",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Авто",
+      "targets": [
+        ["linkText=Авто", "linkText"],
+        ["css=.tabs__item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Авто')]", "xpath:link"],
+        ["xpath=//main[@id='grid']/div[2]/div[3]/div/div[2]/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//auto.mail.ru/')]", "xpath:href"],
+        ["xpath=//div[2]/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c136395c-42f1-4037-a8cc-c63797f1e5f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user__dropdown__icon > img",
+      "targets": [
+        ["css=.user__dropdown__icon > img", "css:finder"],
+        ["xpath=//div[@id='mailbox']/div/div/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be5f7e7e-0bb0-4aee-b492-121fcbd627f8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0576f94-939c-40db-9c24-f74147207894",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph-dropdown-icon",
+      "targets": [
+        ["css=.ph-dropdown-icon", "css:finder"],
+        ["xpath=//div[@id='ph-whiteline']/div/div[2]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a913dbf-ec5f-491f-83db-cdec09e49d08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ph-item:nth-child(4)",
+      "targets": [
+        ["css=.ph-item:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='ph-whiteline']/div/div[3]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "12d95fa9-8223-4437-90c1-3039ad0340aa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://mail.ru/"],
+  "plugins": []
+}
